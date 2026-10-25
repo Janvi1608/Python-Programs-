@@ -2,7 +2,7 @@ import random
 import time
 choice = "rock" , "paper" , "scissors"  
 comp=random.choice(choice)
-user=str(input("enter choice : "))
+user=str(input("enter choice : (rock , paper , scissors"))
 time.sleep(2)
 print("Computer chooses",comp)
 time.sleep(2)
